@@ -5,6 +5,7 @@ body{
     margin:0px;
     font-family: 'Poppins', sans-serif;
 }
+/*nav css  ///////////////////////////////////////////////////////////////////////////////*/
 .nav{
     height: 70px;
     display:flex;
@@ -15,6 +16,7 @@ body{
 .nav img{
     max-width: 100px;
 }
+/*main css /////////////////////////////////////////////////*/
 .Main{
     padding:20px;
     display:flex;
@@ -31,4 +33,42 @@ body{
 
 .Main p {
     margin-top: 0;
+}
+/* card css//////////////////////*/
+.Card{
+    width: 175px;
+    font-size: 12px;
+    position: relative;
+    
+}
+.Card >img{
+    width:100%;
+    border-radius:9px;
+    height:250px
+}
+.Card-stats{
+    display:flex;
+    align-items: center;
+}
+.Card-stats img{
+    height: 14px; ;
+}
+.Card-stats span:nth-last-child(-n+2){
+    color: #918E9B;
+}
+
+
+
+.cards{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.badge{
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-left: 5px;
 }
